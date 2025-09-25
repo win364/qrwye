@@ -1,0 +1,40 @@
+# Node & tooling
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store
+
+# Unused build outputs
+.next
+out
+dist
+build
+
+# VCS & editors
+.git
+.gitignore
+.svn
+.hg
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache
+.eslintcache
+
+# Tracker artifacts (defense-in-depth)
+**/activityi*.html
+**/saved_resource*.html
+**/hotjar*.js
+**/modules.*hotjar*.js
+**/12572451.fls.doubleclick.net/**
+**/adservice.google.com/**
+**/static.hotjar.com/**
+**/script.hotjar.com/**
+**/v1.bundlecdn.com/**
+**/www.gstatic.com/**
